@@ -69,6 +69,8 @@ Maxlev employs a dynamic and systematic approach to trading with high leverage. 
 
 ### Performance Highlights:
 
+![image](https://github.com/user-attachments/assets/7ea961e1-a9e1-4b2a-b58a-0e5304250e32)
+
 - **Best Performing Portfolio**: $500 → $58,630 in 330 days with the **S1-A** trial.
 - **Average ROI**: 1512.16% over 330 days.
 - **Best Return**: 118.26x
