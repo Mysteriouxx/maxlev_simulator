@@ -67,6 +67,14 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 
 Maxlev employs a dynamic and systematic approach to trading with high leverage. The combination of advanced backtesting, simulation, and real-world constraint considerations makes Maxlev an adaptable and robust tool for maximizing cryptocurrency trading profits. The simulation results demonstrate significant improvement over holding BTC spot, suggesting strong potential for further refinement and real-world application.
 
+### Performance Highlights:
+
+- **Best Performing Portfolio**: $500 → $58,630 in 330 days with the **S1-A** trial.
+- **Average ROI**: 1512.16% over 330 days.
+- **Best Return**: 118.26x
+- **Mean Return**: 16.31x
+- **Best Sharpe Ratio**: 3.80 (indicating a strong risk-adjusted return).
+
 ---
 
 ## Requirements
