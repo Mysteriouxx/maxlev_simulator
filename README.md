@@ -36,6 +36,17 @@ The best-performing combinations from Step 2 are tested in a detailed simulation
 
 The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identifying trading opportunities that maximize returns while managing risk effectively. The results of the simulation are reported in terms of capital progression over the period and the performance of the top 3 portfolios under different trial setups. The performance is compared against the benchmark of holding BTC spot.
 
+### Atomic Strategy Combination Framework
+
+The **Atomic Strategy Combination Framework (ASCF)** is an innovative portfolio management methodology that decomposes trading strategies into atomic, self-contained units known as "blocks." Each block represents a unique combination of trading instruments and strategy configurations, allowing for independent operation while contributing to the overall portfolio's performance.
+
+#### Core Features:
+- **Strategy Atomization**: Each strategy combination is atomized into a discrete "block" with standardized capital.
+- **Combination-Level Diversification**: Each block represents a unique coin-pair + strategy combo, creating a matrix of opportunities.
+- **Standardized Block Architecture**: Each block starts with equal capital and operates under unified risk parameters.
+- **Portfolio Construction Method**: Matrix-based block allocation combining both instruments and strategies.
+- **Scalability and Flexibility**: Blocks can be added or removed without disrupting other blocks.
+
 ### Simulation Configuration:
 - **Initial Capital**: $500
 - **Target Capital**: $10,000
