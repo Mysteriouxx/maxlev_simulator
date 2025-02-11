@@ -9,6 +9,8 @@ Maxlev is a proprietary high-leverage pyramiding trading system designed to opti
 
 Maxlev is designed to intelligently scale positions with leverage, maximizing profit potential while managing risk effectively.
 
+![image](https://github.com/user-attachments/assets/ad8168fa-0ae6-47bc-aec3-19e4d18afd3f)
+
 ## Key Parameters for Trading
 To trade using Maxlev, a trader must configure the following key parameters:
 - **Trading Size**: The amount to be traded.
@@ -51,6 +53,15 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 - **Dynamic Market Regime Adjustment**: Considered
 - **Dynamic Capital Management**: Considered
 - **Tech Stack**: Python, CUDA, SQL
+
+## Results
+
+![S1_capital_comparisons_A](https://github.com/user-attachments/assets/26b82583-4311-4119-9f56-f9a3b8c25ed6)
+![S1_capital_comparisons_B](https://github.com/user-attachments/assets/3fbf5a7b-bd73-457c-b478-3203babf6925)
+![S2_capital_comparisons_A](https://github.com/user-attachments/assets/62060b32-f7e4-43c4-8aaa-154cac53a715)
+![S2_capital_comparisons_B](https://github.com/user-attachments/assets/93f7d95f-9663-4213-9e81-ead899bb2277)
+![S3_capital_comparisons_A](https://github.com/user-attachments/assets/3ad50130-826f-4d91-a8dd-6e9da4c61d2e)
+![S3_capital_comparisons_B](https://github.com/user-attachments/assets/99be8aa7-9bd8-4f7b-9330-b19a8a452d81)
 
 ## Conclusion
 
