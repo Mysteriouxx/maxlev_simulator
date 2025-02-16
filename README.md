@@ -39,9 +39,9 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 ### Simulation Configuration:
 - **Initial Capital**: $500
 - **Target Capital**: $10,000
-- **Training Period**: 2023-09-01 to 2024-02-01
-- **Simulation Period**: 2024-02-01 to 2025-01-01
-- **Tested Cryptocurrencies**: 18
+- **Training Period**: 1. 2021-07-01 to 2022-01-01; 2. 2022-07-01 to 2023-01-01; 3. 2023-07-01 to 2024-01-01
+- **Simulation Period**: 1. 2022-01-01 to 2023-01-01; 2. 2023-01-01 to 2024-01-01; 3. 2024-01-01 to 2025-01-01
+- **Tested Cryptocurrencies**: 50
 - **Tested Strategies**:
   - **S1**: Single-Win Strategy
   - **S2**: Double-Win Strategy
@@ -55,27 +55,15 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 - **Tech Stack**: Python, CUDA, SQL
 
 ## Results
+Log-scaled Portfolio Capital Growth
+![multi_year_performance_log](https://github.com/user-attachments/assets/7c711242-3b8b-4281-8413-7d6b2037765e)
+![image](https://github.com/user-attachments/assets/ab2e4626-e17f-429b-9c32-1e1a6bdd96dd)
+![image](https://github.com/user-attachments/assets/2d94906f-2d36-4070-bfbb-f5fb750948a4)
 
-![S1_capital_comparisons_A](https://github.com/user-attachments/assets/26b82583-4311-4119-9f56-f9a3b8c25ed6)
-![S1_capital_comparisons_B](https://github.com/user-attachments/assets/3fbf5a7b-bd73-457c-b478-3203babf6925)
-![S2_capital_comparisons_A](https://github.com/user-attachments/assets/62060b32-f7e4-43c4-8aaa-154cac53a715)
-![S2_capital_comparisons_B](https://github.com/user-attachments/assets/93f7d95f-9663-4213-9e81-ead899bb2277)
-![S3_capital_comparisons_A](https://github.com/user-attachments/assets/3ad50130-826f-4d91-a8dd-6e9da4c61d2e)
-![S3_capital_comparisons_B](https://github.com/user-attachments/assets/99be8aa7-9bd8-4f7b-9330-b19a8a452d81)
 
 ## Conclusion
 
 Maxlev employs a dynamic and systematic approach to trading with high leverage. The combination of advanced backtesting, simulation, and real-world constraint considerations makes Maxlev an adaptable and robust tool for maximizing cryptocurrency trading profits. The simulation results demonstrate significant improvement over holding BTC spot, suggesting strong potential for further refinement and real-world application.
-
-### Performance Highlights:
-
-![image](https://github.com/user-attachments/assets/7ea961e1-a9e1-4b2a-b58a-0e5304250e32)
-
-- **Best Performing Portfolio**: $500 → $58,630 in 330 days with the **S1-A** trial.
-- **Average ROI**: 1512.16% over 330 days.
-- **Best Return**: 118.26x
-- **Mean Return**: 16.31x
-- **Best Sharpe Ratio**: 3.80 (indicating a strong risk-adjusted return).
 
 ---
 
