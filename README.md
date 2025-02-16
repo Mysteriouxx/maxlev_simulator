@@ -54,10 +54,11 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 - **Dynamic Capital Management**: Considered
 - **Tech Stack**: Python, CUDA, SQL
 
-## Results
-Log-scaled Portfolio Capital Growth
+## Results: Log-scaled Portfolio Capital Growth
 ![multi_year_performance_log](https://github.com/user-attachments/assets/7c711242-3b8b-4281-8413-7d6b2037765e)
-![image](https://github.com/user-attachments/assets/ab2e4626-e17f-429b-9c32-1e1a6bdd96dd)
+
+![image](https://github.com/user-attachments/assets/e2d205e1-fe50-40c9-916a-4ad4febdafd4)
+
 ![image](https://github.com/user-attachments/assets/2d94906f-2d36-4070-bfbb-f5fb750948a4)
 
 
