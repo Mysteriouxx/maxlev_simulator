@@ -2,7 +2,9 @@
 
 ## Overview
 
-Maxlev is a proprietary high-leverage pyramiding trading system designed to optimize returns in the cryptocurrency market through iterative position resizing. The system aims to amplify capital in a strategic way by utilizing high leverage at each stage of the trading cycle.
+Maxlev is a momentum strategy that uses a high-leverage pyramiding trading system designed to optimize returns in the cryptocurrency futures market through iterative position resizing. The following table shows the returns over a range of price change (regardless of direction): 
+
+![image](https://github.com/user-attachments/assets/0ab1b01b-6ae4-4eb9-bf5a-7c0b687fdd67)
 
 ### Key Formula:
 **Final Capital** = Initial Capital × (1 + Leverage × Stage_Return)^{Number_of_Stages}
@@ -35,6 +37,8 @@ The best-performing combinations from Step 2 are tested in a detailed simulation
 ## Simulated Results & Practical Application
 
 The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identifying trading opportunities that maximize returns while managing risk effectively. The results of the simulation are reported in terms of capital progression over the period and the performance of the top 3 portfolios under different trial setups. The performance is compared against the benchmark of holding BTC spot. The portfolio (trial) construction uses a novel **Atomic Strategy Combination Framework (ASCF)** methodology that decomposes trading strategies into atomic, self-contained units known as "blocks." 
+
+![image](https://github.com/user-attachments/assets/7752bd8a-de09-4dae-91de-3bc1f5b71cf9)
 
 ### Simulation Configuration:
 - **Initial Capital**: $500
