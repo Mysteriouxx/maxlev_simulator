@@ -36,13 +36,13 @@ In this phase, we simulate live trading by combining up to three of the optimal 
 The best-performing combinations from Step 2 are tested in a detailed simulation using real market data from February 2024 to January 2025. The simulation considers real-world constraints such as transaction fees, margin requirements, slippage, market regime changes, and various take-profit rhythms. It includes multiple trading strategies and is tested for both fixed-combo and fixed-coin scenarios to ensure adaptable performance under various market conditions.
 
 ![image](https://github.com/user-attachments/assets/b2d58ff3-0aff-4e52-9470-a14e1b7397cf)
-The diagram is only for illustration purpose.
 
 ## Simulated Results & Practical Application
 
 The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identifying trading opportunities that maximize returns while managing risk effectively. The results of the simulation are reported in terms of capital progression over the period and the performance of the top 3 portfolios under different trial setups. The performance is compared against the benchmark of holding BTC spot. The portfolio (trial) construction uses a novel **Atomic Strategy Combination Framework (ASCF)** methodology that decomposes trading strategies into atomic, self-contained units known as "blocks." 
 
 ![image](https://github.com/user-attachments/assets/7752bd8a-de09-4dae-91de-3bc1f5b71cf9)
+The diagram is only for illustration purpose.
 
 ### Simulation Configuration:
 - **Initial Capital**: $500
