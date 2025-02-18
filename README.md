@@ -36,6 +36,7 @@ In this phase, we simulate live trading by combining up to three of the optimal 
 The best-performing combinations from Step 2 are tested in a detailed simulation using real market data from February 2024 to January 2025. The simulation considers real-world constraints such as transaction fees, margin requirements, slippage, market regime changes, and various take-profit rhythms. It includes multiple trading strategies and is tested for both fixed-combo and fixed-coin scenarios to ensure adaptable performance under various market conditions.
 
 ![image](https://github.com/user-attachments/assets/b2d58ff3-0aff-4e52-9470-a14e1b7397cf)
+The diagram is only for illustration purpose.
 
 ## Simulated Results & Practical Application
 
