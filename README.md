@@ -1,8 +1,9 @@
 # Maxlev Trading System Simulation Report
 
-## Overview
+## Executive Summary
+MaxLev is an innovative, high-risk/high-reward directional momentum strategy designed to capitalize on trending cryptocurrencies via leveraged perpetual futures. With a proven track record in rigorous backtesting—achieving up to 27,072.26% returns (2022–2025) and a Sharpe ratio of 3.05—MaxLev targets risk-seeking investors such as hedge funds and crypto-native portfolios. Its proprietary probabilistic model and Atomic Strategy Combination Framework (ASCF) set it apart from traditional deterministic strategies. At this pivotal juncture, MaxLev seeks strategic direction among three options: launching an independent fund, merging with an existing hedge fund, or tokenizing the strategy on-chain. This proposal outlines each pathway to guide decision-making.
 
-Maxlev is a momentum strategy that uses a high-leverage pyramiding trading system designed to optimize returns in the cryptocurrency futures market through iterative position resizing. The following table shows the returns over a range of price change (regardless of direction): 
+The following table shows the returns over a range of price change (regardless of direction): 
 
 ![image](https://github.com/user-attachments/assets/0bd273da-3b29-414a-a177-8d1f3797080e)
 
@@ -23,7 +24,7 @@ To trade using Maxlev, a trader must configure the following key parameters:
 
 ## Optimizing Entry Points in Maxlev
 
-The next step in the optimization process is identifying ideal entry points. Maxlev employs advanced backtesting and reverse-engineering techniques to determine the most profitable entry signals. The optimization is done in three key phases:
+The next step in the optimization process is identifying ideal entry points. Maxlev employs advanced backtesting and reverse-engineering techniques to determine the most profitable entry signals. The backtesting is done in three key phases:
 
 ### Step 1: Brute-Force Test
 Inspired by Richard Dennis' Turtle Trading experiment, we use indicator values as potential entry signals, which are tested through a brute-force methodology. A rolling window technique is employed to test multiple indicators on various timeframes, with each threshold tested to determine the best parameters for triggering trades. This results in an optimal "threshold lookup table" that identifies the most successful entry signals based on historical data.
@@ -48,10 +49,6 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 - **Training Period**: 1. 2021-07-01 to 2022-01-01; 2. 2022-07-01 to 2023-01-01; 3. 2023-07-01 to 2024-01-01
 - **Simulation Period**: 1. 2022-01-01 to 2023-01-01; 2. 2023-01-01 to 2024-01-01; 3. 2024-01-01 to 2025-01-01
 - **Tested Cryptocurrencies**: 50
-- **Tested Strategies**:
-  - **S1**: Single-Win Strategy
-  - **S2**: Double-Win Strategy
-  - **S3**: Triple-Win Strategy
 - **Real-life Constraints**: Data acquired from Bitget Futures Exchange
 - **Data Source**: Binance API using Python's `binance.py` and CCXT library
 - **Trading Setup**: 2 Cases per Strategy, 4 Trials per Case, 14 Portfolio Variations per Trial, 3 Trading Slots per Portfolio = 24 Simulations in Total
@@ -61,6 +58,27 @@ The simulation focuses on a range of cryptocurrencies, from DeFi to NFTs, identi
 - **Tech Stack**: Python, CUDA, SQL
 
 ## Results: Log-scaled Portfolio Capital Growth
+
+### Portfolio Performance (2022-2025)
+- **Best Total Return**: 27072.26%
+- **Worst Total Return**: 771.57%
+- **Average Total Return**: 6608.51%
+- **Best Max Drawdown**: -8.62%
+- **Profit Factor**: 3.61 (highest in the group)
+- **Sharpe Ratio**: 3.05 (indicating strong risk-adjusted returns)
+- **Monthly Win Rate**: 77.78% (highest win rate)
+- **Final Value of Portfolio**: $7,500 to $2,037,919.55
+
+### Summary of Results:
+- **Strategy with the highest return**: S2B Independent Continuous with 27072.26% return
+- **Strategy with the least volatility**: S2A Sensitive Continuous with 26.20% annual volatility
+- **Strongest Portfolio's Sharpe Ratio**: S2B Independent Continuous with 3.05, indicating excellent risk-adjusted performance
+
+### Consistency Ranking:
+- **Best Overall Consistency Score over years**: S2B Independent Continuous with an overall score of 1.01
+- **Consistency with Drawdown (DD)**: S2B Independent Continuous (0.62) has the best consistency
+- **Best Positive Years Consistency**: All strategies scored 100% positive years.
+
 ![multi_year_performance_log](https://github.com/user-attachments/assets/7c711242-3b8b-4281-8413-7d6b2037765e)
 
 ![image](https://github.com/user-attachments/assets/e2d205e1-fe50-40c9-916a-4ad4febdafd4)
